@@ -15,8 +15,8 @@ Features
 
 Screenshots
 
-![Screenshot 1](scrn1.png)
-![Screenshot 2](scrn2.png)
+![Screenshot](./scrn1.jpg)
+
 
 Getting Started
 
