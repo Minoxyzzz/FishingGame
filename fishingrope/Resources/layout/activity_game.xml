@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:id="@+id/game_layout">
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/im1"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/wave_image"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/im2"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score"
+        android:text="Time: 60" />
+
+    <ImageView
+        android:id="@+id/rope"
+        android:contentDescription="@string/rope_description"
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:src="@drawable/rope_image" />
+
+    <ImageView
+        android:id="@+id/fish"
+        android:contentDescription="@string/fish_description"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fish" />
+
+</RelativeLayout>
