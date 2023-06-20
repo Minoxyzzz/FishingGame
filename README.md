@@ -1,7 +1,7 @@
 # FishingGame
 FishingGame
 
-FishingGame Logo
+![Screenshot](./scrn2.jpg)
 
 FishingGame is a simple fishing game developed in Xamarin for Android devices. The objective of the game is to catch as many fish as possible within the given time limit. It features intuitive touch controls and vibrant graphics to provide an enjoyable gaming experience.
 
